@@ -109,12 +109,12 @@
   capacity: 6
   chambers: [ True, True, True, True, True, True ]
   ammoSlots: [ null, null, null, null, null, null ]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 3
+    zeroVisible: true
+- type: Appearance
   soundEject:
     path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
   soundInsert:
     path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-- type: MagazineVisuals
-  magState: mag
-  steps: 3
-  zeroVisible: true
-- type: Appearance
