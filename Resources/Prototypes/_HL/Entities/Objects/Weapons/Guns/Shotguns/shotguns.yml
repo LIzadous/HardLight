@@ -79,14 +79,14 @@
     - state: mag-unshaded-3
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
-    -type: Clothing
-    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
-    quickEquip: false 
+    -type: Item
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi 
     slots:
     - Back
     - suitStorage
-  - type: Item
+  - type: Clothing
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
+    quickEquip: false 
     size: Large
   - type: AltFireMelee # Not using the gun melee based because this is a different damage type and need different rotation
     attackType: Light
