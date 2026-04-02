@@ -84,31 +84,10 @@
   - type: MeleeRequiresWield
   - type: Gun
     fireRate: 2
-  - type: RevolverAmmoProvider
-    whitelist:
-      tags:
-        - PelletShotgunBeanbag
-        - PelletShotgunSlug
-        - PelletShotgun
-        - PelletShotgunIncendiary
-        - PelletShotgunPractice
-        - PelletShotgunImprovised
-        - PelletShotgunTranquilizer
-        - PelletShotgunFlare
-        - PelletShotgunUranium
-    mayTransfer: true # Frontier
-    proto:  -PelletShotgunBeanbag # Frontier
-  - PelletShotgunSlug # Frontier
-  - PelletShotgunFlare # Frontier
-  - PelletShotgunSpread # Frontier
-  - PelletShotgunIncendiarySpread # Frontier
-  - PelletShotgunPracticeSpread # Frontier
-  - PelletShotgunTranquilizer # Frontier
-  - PelletShotgunImprovisedSpread # Frontier
-  - PelletShotgunUraniumSpread # Frontier
-  capacity: 6
-  chambers: [ True, True, True, True, True, True ]
-  ammoSlots: [ null, null, null, null, null, null ]
+  - type: BallisticAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
   - type: MagazineVisuals
     magState: mag
     steps: 3
