@@ -107,8 +107,3 @@
     magState: mag
     steps: 4
     zeroVisible: true
-  - type: Appearance
-    soundEject:
-      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
-    soundInsert:
-      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
