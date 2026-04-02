@@ -113,7 +113,7 @@
     path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
   soundInsert:
     path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-  - type: MagazineVisuals
+- type: MagazineVisuals
   magState: mag
   steps: 3
   zeroVisible: true
