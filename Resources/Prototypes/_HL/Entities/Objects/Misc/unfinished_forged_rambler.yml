@@ -13,7 +13,6 @@
   - type: ToolRefinable
     refineResult:
     - id: WeaponRamblerShotgun
-      chance: 1
   - type: Tag
     tags:
     - Metal
