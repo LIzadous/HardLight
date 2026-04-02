@@ -72,13 +72,22 @@
   description: A ramshackle semi-automatic shotgun fed by revolving clamps. A curious mixture of shotgun and revolver, it reminds you of old subway tunnels for some reason.
   components:
   - type: Sprite
-    sprite: _HL/Objects/Weapons/Guns/Shotguns/ForgedRambler.rsi
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-unshaded-3
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
+    -type: Clothing
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
+    quickEquip: false 
+    slots:
+    - Back
+    - suitStorage
+  - type: Item
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
+    size: Large
   - type: AltFireMelee # Not using the gun melee based because this is a different damage type and need different rotation
     attackType: Light
   - type: MeleeRequiresWield
