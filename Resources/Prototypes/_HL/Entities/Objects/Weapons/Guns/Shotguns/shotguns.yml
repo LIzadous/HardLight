@@ -90,18 +90,22 @@
   - type: GunRequiresWield
   - type: Gun
     fireRate: 2
-  - type: RevolverAmmoProvider
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: BallisticAmmoProvider
     whitelist:
       tags:
-        - PelletShotgunBeanbag
-        - PelletShotgunSlug
-        - PelletShotgun
-        - PelletShotgunIncendiary
-        - PelletShotgunPractice
-        - PelletShotgunImprovised
-        - PelletShotgunTranquilizer
-        - PelletShotgunFlare
-        - PelletShotgunUranium
+        - PelletShotgunBeanbag # Frontier  
+        - PelletShotgunSlug # Frontier
+        - PelletShotgun # Frontier     
+        - PelletShotgunIncendiary # Frontier
+        - PelletShotgunPractice # Frontier
+        - PelletShotgunImprovised # Frontier
+        - PelletShotgunTranquilizer # Frontier
+        - PelletShotgunFlare # Frontier
+        - PelletShotgunUranium # Frontier
+    mayTransfer: true # Frontier
     proto: null
     capacity: 5
     chambers: [ True, True, True, True, True ]
