@@ -81,12 +81,12 @@
       shader: unshaded
   - type: Item
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi 
-    slots:
-    - Back
-    - suitStorage
   - type: Clothing
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
     quickEquip: false 
+    slots:
+    - Back
+    - suitStorage
     size: Large
   - type: GunRequiresWield
   - type: Gun
