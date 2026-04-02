@@ -3,7 +3,7 @@
   parent: BaseItem
   id: UnfinishedRamblerForged
   name: forged rifle parts
-  description: Some assembly may be reqiured. Needs welding.
+  description: Some assembly may be required. Needs welding.
   components:
   - type: Item
     size: Large
@@ -12,7 +12,8 @@
     state: unfinished
   - type: ToolRefinable
     refineResult:
-    - id: WeaponRamblerForged
+    - id: WeaponRamblerShotgun
+      chance: 1
   - type: Tag
     tags:
     - Metal
