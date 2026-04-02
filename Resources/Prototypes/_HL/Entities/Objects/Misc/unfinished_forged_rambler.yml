@@ -8,7 +8,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: _HL/Objects/Weapons/Guns/shotguns/forgedrambler.rsi
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
     state: unfinished
   - type: ToolRefinable
     refineResult:
