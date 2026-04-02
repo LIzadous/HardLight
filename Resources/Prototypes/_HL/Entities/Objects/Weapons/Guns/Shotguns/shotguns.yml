@@ -75,10 +75,10 @@
     sprite: _HL/Objects/Weapons/Guns/Shotguns/ForgedRambler.rsi
     layers:
     - state: base
-    map: ["enum.GunVisualLayers.Base"]
-  - state: mag-unshaded-3
-    map: ["enum.GunVisualLayers.MagUnshaded"]
-    shader: unshaded
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-3
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
   - type: AltFireMelee # Not using the gun melee based because this is a different damage type and need different rotation
     attackType: Light
   - type: MeleeRequiresWield
