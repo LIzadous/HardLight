@@ -64,3 +64,56 @@
     allowedDepartments: [ Civilian, Security, Command, Frontier, CentralCommand ]  #IF we had a merc department we can expand on it
   #- type: ChamberMagazineAmmoProvider
   #  autoEject: true
+
+- type: entity
+  name: Forged Rambler Shotgun
+  parent: [BaseWeaponRevolver, BaseWeaponShotgun, BaseGunMeleeBlunt, BaseC1Contraband]
+  id: WeaponRamblerShotgun
+  description: A ramshackle semi-automatic shotgun fed by revolving clamps. A curious mixture of shotgun and revolver, it reminds you of old subway tunnels for some reason.
+  - type: Sprite
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/ForgedRambler.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-3
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: AltFireMelee # Not using the gun melee based because this is a different damage type and need different rotation
+    attackType: Light
+  - type: MeleeRequiresWield
+  - type: Gun
+    fireRate: 2
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - PelletShotgunBeanbag
+        - PelletShotgunSlug
+	- PelletShotgun
+	- PelletShotgunIncendiary
+	- PelletShotgunPractice
+	- PelletShotgunImprovised
+	- PelletShotgunTranquilizer
+	- PelletShotgunFlare
+	- PelletShotgunUranium
+    mayTransfer: true # Frontier
+    proto: PelletShotgunBeanbag # Frontier
+	   PelletShotgunSlug # Frontier
+	   PelletShotgunFlare # Frontier
+	   PelletShotgunSpread # Frontier
+	   PelletShotgunIncendiarySpread # Frontier
+	   PelletShotgunPracticeSpread # Frontier
+	   PelletShotgunTranquilizer # Frontier
+	   PelletShotgunImprovisedSpread # Frontier
+	   PelletShotgunUraniumSpread # Frontier
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+  - type: MagazineVisuals
+    magState: mag
+    steps: 3
+    zeroVisible: true
+  - type: Appearance
