@@ -67,7 +67,7 @@
 
 - type: entity
   name: Forged Rambler Shotgun
-  parent: [BaseGunWieldable, BaseItem, BaseC1Contraband]
+  parent: [BaseGunWieldable, BaseWeaponShotgun, BaseC1Contraband]
   id: WeaponRamblerShotgun
   description: A ramshackle semi-automatic shotgun fed by revolving clamps. A curious mixture of shotgun and revolver, it reminds you of old subway tunnels for some reason.
   components:
@@ -76,7 +76,7 @@
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
+    - state: mag-3
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi 
@@ -90,23 +90,16 @@
   - type: GunRequiresWield
   - type: Gun
     fireRate: 2
-  - type: BallisticAmmoProvider
+  - type: RevolverAmmoProvider
+    capacity: 6
     whitelist:
       tags:
-        - PelletShotgunBeanbag # Frontier  
-        - PelletShotgunSlug # Frontier
-        - PelletShotgun # Frontier     
-        - PelletShotgunIncendiary # Frontier
-        - PelletShotgunPractice # Frontier
-        - PelletShotgunImprovised # Frontier
-        - PelletShotgunTranquilizer # Frontier
-        - PelletShotgunFlare # Frontier
-        - PelletShotgunUranium # Frontier
+        - Cartridge
+        - ShellShotgun12_gauge
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
     mayTransfer: true # Frontier
     proto: null
-    capacity: 5
-    chambers: [ True, True, True, True, True ]
-    ammoSlots: [ null, null, null, null, null ]
   - type: MagazineVisuals
     magState: mag
     steps: 3
