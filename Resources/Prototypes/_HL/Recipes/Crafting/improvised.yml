@@ -59,7 +59,7 @@
   objectType: Item
 
 - type: construction
-  id: WeaponRamblerForged
+  id: WeaponRamblerShotgun
   graph: ForgedRamblerGraph
   startNode: start
   targetNode: shotgun
