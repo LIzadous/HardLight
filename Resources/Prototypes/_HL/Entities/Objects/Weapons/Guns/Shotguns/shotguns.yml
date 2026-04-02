@@ -67,7 +67,7 @@
 
 - type: entity
   name: Forged Rambler Shotgun
-  parent: [BaseGunWieldable, BaseWeaponRevolver, BaseC1Contraband]
+  parent: [BaseGunWieldable, BaseItem, BaseC1Contraband]
   id: WeaponRamblerShotgun
   description: A ramshackle semi-automatic shotgun fed by revolving clamps. A curious mixture of shotgun and revolver, it reminds you of old subway tunnels for some reason.
   components:
@@ -90,9 +90,6 @@
   - type: GunRequiresWield
   - type: Gun
     fireRate: 2
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
   - type: BallisticAmmoProvider
     whitelist:
       tags:
