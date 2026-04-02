@@ -86,7 +86,7 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - PelletShotgunBeanbag
+	- PelletShotgunBeanbag
         - PelletShotgunSlug
 	- PelletShotgun
 	- PelletShotgunIncendiary
