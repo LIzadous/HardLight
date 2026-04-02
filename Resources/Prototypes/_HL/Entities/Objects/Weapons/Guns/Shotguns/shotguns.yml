@@ -70,20 +70,20 @@
   parent: [BaseWeaponRevolver, BaseWeaponShotgun, BaseGunMeleeBlunt, BaseC1Contraband]
   id: WeaponRamblerShotgun
   description: A ramshackle semi-automatic shotgun fed by revolving clamps. A curious mixture of shotgun and revolver, it reminds you of old subway tunnels for some reason.
-  - type: Sprite
+ - type: Sprite
     sprite: _HL/Objects/Weapons/Guns/Shotguns/ForgedRambler.rsi
     layers:
-  - state: base
+ - state: base
       map: ["enum.GunVisualLayers.Base"]
-  - state: mag-unshaded-3
+ - state: mag-unshaded-3
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
-  - type: AltFireMelee # Not using the gun melee based because this is a different damage type and need different rotation
-    attackType: Light
-  - type: MeleeRequiresWield
-  - type: Gun
+ - type: AltFireMelee # Not using the gun melee based because this is a different damage type and need different rotation
+   attackType: Light
+ - type: MeleeRequiresWield
+ - type: Gun
     fireRate: 2
-  - type: RevolverAmmoProvider
+ - type: RevolverAmmoProvider
     whitelist:
       tags:
 	- PelletShotgunBeanbag
@@ -112,8 +112,8 @@
       path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-  - type: MagazineVisuals
+ - type: MagazineVisuals
     magState: mag
     steps: 3
     zeroVisible: true
-  - type: Appearance
+ - type: Appearance
