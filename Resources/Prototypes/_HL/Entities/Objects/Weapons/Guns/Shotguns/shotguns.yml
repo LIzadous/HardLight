@@ -88,6 +88,7 @@
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
     quickEquip: false 
     size: Large
+  - type: GunRequiresWield
   - type: Gun
     fireRate: 2
   - type: RevolverAmmoProvider
