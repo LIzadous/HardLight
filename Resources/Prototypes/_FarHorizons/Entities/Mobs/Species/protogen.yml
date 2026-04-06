@@ -2316,32 +2316,32 @@
         jumpsuit:
           sizeMaps:
             32:
-              sprite: _HL/Mobs/Species/Avali/displacement.rsi
+              sprite: _HL\Mobs\Species\Avali\displacement.rsi
               state: jumpsuit
         shoes:
           sizeMaps:
             32:
-              sprite: _HL/Mobs/Species/Avali/displacement.rsi
+              sprite: _HL\Mobs\Species\Avali\displacement.rsi
               state: feet
         head:
           sizeMaps:
             32:
-              sprite: _HL/Mobs/Species/Avali/displacement.rsi
+              sprite: _HL\Mobs\Species\Avali\displacement.rsi
               state: head
         hand:
           sizeMaps:
             32:
-              sprite: _HL/Mobs/Species/Avali/displacement.rsi
+              sprite: _HL\Mobs\Species\Avali\displacement.rsi
               state: hand
         back:
           sizeMaps:
             32:
-              sprite: _HL/Mobs/Species/Avali/displacement.rsi
+              sprite: _HL\Mobs\Species\Avali\displacement.rsi
               state: back
         outerClothing:
           sizeMaps:
             32:
-              sprite: _HL/Mobs/Species/Avali/displacement.rsi
+              sprite: _HL\Mobs\Species\Avali\displacement.rsi
               state: outerClothing       
     - type: Butcherable
       butcheringType: Spike
