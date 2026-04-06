@@ -67,14 +67,6 @@
   objectType: Item
 
 - type: construction
-  id: WeaponLaserpistolForged
-  graph: ForgedLaserpistolGraph
-  startNode: start
-  targetNode: shotgun
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
   id: ClothingForgedHardsuit
   graph: ForgedHardsuitGraph
   startNode: start
