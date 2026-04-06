@@ -578,9 +578,9 @@
   description: An emergency hardsuit helmet adorned with patchwork armor plating. It's horribly slow and lacking mostly in thermal protection, but it gets the job done.
   components:
   - type: Sprite
-    sprite: _HL/Clothing/OuterClothing/Hardsuits/forged-hardsuit-helm.rsi
+    sprite: _HL/Clothing/Head/Hardsuits/forged-hardsuit-helm.rsi
   - type: Clothing
-    sprite: _HL/Clothing/OuterClothing/Hardsuits/forged-hardsuit-helm.rsi
+    sprite: _HL/Clothing/Head/Hardsuits/forged-hardsuit-helm.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.35
     lowPressureMultiplier: 1000
