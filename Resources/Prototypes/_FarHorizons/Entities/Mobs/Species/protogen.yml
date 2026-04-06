@@ -2452,10 +2452,10 @@
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: back
         outerClothing:
-        sizeMaps:
-          32:
-            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
-            state: outerClothing      
+          sizeMaps:
+            32:
+              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+              state: outerClothing      
 
 #region ARACHNID ####
 
