@@ -2273,7 +2273,7 @@
           sizeMaps:
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
-              state: shoes
+              state: feet
         head:
           sizeMaps:
             32:
@@ -2324,6 +2324,18 @@
       damageContainer: Biological
       damageModifierSet: ProtoAvali
     - type: DamageVisuals
+      thresholds: [ 10, 30, 50, 70]
+      targetLayers:
+      - "enum.HumanoidVisualLayers.Chest"
+      - "enum.HumanoidVisualLayers.Head"
+      - "enum.HumanoidVisualLayers.LArm"
+      - "enum.HumanoidVisualLayers.LLeg"
+      - "enum.HumanoidVisualLayers.RArm"
+      - "enum.HumanoidVisualLayers.RLeg"
+      - "enum.HumanoidVisualLayers.RHand"
+      - "enum.HumanoidVisualLayers.LHand"
+      - "enum.HumanoidVisualLayers.RFoot"
+      - "enum.HumanoidVisualLayers.LFoot"
       damageOverlayGroups:
         Brute:
           sprite: Mobs/Effects/brute_damage.rsi
@@ -2368,7 +2380,7 @@
           sizeMaps:
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
-              state: shoes
+              state: feet
         head:
           sizeMaps:
             32:
