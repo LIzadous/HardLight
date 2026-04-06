@@ -1,7 +1,7 @@
 
 - type: entity
   parent: BaseItem
-  id: UnfinishedForgedHardsuit
+  id: UnfinishedHardsuitForged
   name: forged hardsuit parts
   description: Some assembly may be required. Needs welding.
   components:
