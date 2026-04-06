@@ -76,7 +76,7 @@
     scale: 0.7, 0.7
     layers:
     - state: mag-0
-      map: ["enum.GunVisualLayers.Base"]
+      map: ["enum.GunVisualLayers.mag"]
     - state: mag-3
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
