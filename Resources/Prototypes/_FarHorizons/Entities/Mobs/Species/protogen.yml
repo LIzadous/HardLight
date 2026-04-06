@@ -2356,7 +2356,7 @@
       prototype: ProtoAvali
       requiredLegs: 2
     - type: Inventory
-      speciesId: avali
+      speciesId: protoavali
       templateId: protogen
       displacements:
         jumpsuit:
@@ -2384,11 +2384,6 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: back
-        outerClothing:
-          sizeMaps:
-            32:
-              sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
-              state: outerclothing       
     - type: Butcherable
       butcheringType: Spike
       spawned:
