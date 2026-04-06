@@ -79,6 +79,11 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-3
       map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
+    magState: mag
+    steps: 4
+    zeroVisible: true    
   - type: Item
     size: Large
     shape:
@@ -103,7 +108,4 @@
     ammoSlots: [ null, null, null, null, null, null ]
     mayTransfer: true # Frontier
     proto: null
-  - type: MagazineVisuals
-    magState: mag
-    steps: 4
-    zeroVisible: true
+  
