@@ -9,7 +9,6 @@
     size: Large
   - type: Sprite
     sprite: _HL/Clothing/OuterClothing/Hardsuits/forgedhardsuit.rsi
-     state: unfinished
     state: unfinished
   - type: ToolRefinable
     refineResult:
