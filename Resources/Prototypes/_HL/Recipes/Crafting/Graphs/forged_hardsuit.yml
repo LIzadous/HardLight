@@ -4,7 +4,7 @@
   graph:
   - node: start
     edges:
-    - to: shotgun
+    - to: vest
       steps:
       - tag: ClothingOuterSuitEmergency
         icon:
@@ -17,5 +17,5 @@
       - material: Plasteel
         amount: 30
         doAfter: 15
-  - node: shotgun
-    entity: UnfinishedHardsuitForged
+  - node: vest
+    entity: UnfinishedForgedHardsuit
