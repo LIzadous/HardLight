@@ -94,6 +94,13 @@
   - type: GunRequiresWield
   - type: Gun
     fireRate: 2
+    selectedMode: SemiAuto
+    availableModes: 
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: RevolverAmmoProvider
     capacity: 6
     whitelist:
