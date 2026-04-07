@@ -11,7 +11,6 @@
           sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
           state: icon
         name: crafting-menu-name-EVA
-        description: A suit designed for emergency extravehicular activity. Provides basic protection against the
       - material: Steel
         amount: 40
         doAfter: 20
