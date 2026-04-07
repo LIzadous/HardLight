@@ -86,12 +86,13 @@
     slots:
     - Back
     - suitStorage
-  - type: GunRequiresWield
-  - type: Gun
+  - type: Item
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi
     size: Large
     shape:
     - 0,0,5,2
-    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi 
+  - type: GunRequiresWield
+  - type: Gun
     fireRate: 2
   - type: RevolverAmmoProvider
     capacity: 6
