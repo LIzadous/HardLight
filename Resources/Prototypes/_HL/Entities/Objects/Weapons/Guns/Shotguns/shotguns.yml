@@ -63,7 +63,7 @@
     # Pretty much everyone.
     allowedDepartments: [ Civilian, Security, Command, Frontier, CentralCommand ]  #IF we had a merc department we can expand on it
   #- type: ChamberMagazineAmmoProvider
-  #  autoEject: true
+  #  autoEject: true  
 
 - type: entity
   name: Forged Rambler Shotgun
@@ -80,17 +80,17 @@
     - state: mag-unshaded-5
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,5,2
+    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi 
   - type: Clothing
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
     quickEquip: false 
     slots:
     - Back
     - suitStorage
-  - type: Item
-    sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler_inhand.rsi
-    size: Large
-    shape:
-    - 0,0,5,2
   - type: GunRequiresWield
   - type: Gun
     fireRate: 2
@@ -106,6 +106,5 @@
     proto: null
   - type: MagazineVisuals
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
-    magState: mag
     steps: 6
-    zeroVisible: true    
+    zeroVisible: true
