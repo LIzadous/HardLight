@@ -105,13 +105,13 @@
     capacity: 6
     whitelist:
       tags:
-        - Cartridge
         - ShellShotgun12_gauge
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
     mayTransfer: true # Frontier
     proto: null
   - type: MagazineVisuals
+    magState: mag
     sprite: _HL/Objects/Weapons/Guns/Shotguns/forgedrambler.rsi
     steps: 6
     zeroVisible: true
