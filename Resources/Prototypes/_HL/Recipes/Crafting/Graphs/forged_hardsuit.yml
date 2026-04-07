@@ -6,7 +6,7 @@
     edges:
     - to: vest
       steps:
-      - tag: ClothingOuterSuitEmergency
+      - tag: SuitEVA
         icon:
           sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
           state: icon
